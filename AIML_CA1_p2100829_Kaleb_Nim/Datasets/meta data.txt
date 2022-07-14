@@ -1,0 +1,71 @@
+******* factory dataset (classification) ********
+
+This is a dataset collected from a manufacturing company, it contains 20000 data points with 9 columns.
+
+Unique ID: Unique identifier ranging from 1 to 20000
+Product ID: The serial number of product
+Quality: Consist of letter L, M and H for low, medium and high quality
+Ambient T: Environment temperature
+Process T: Machine temperature
+Rotation Speed: Rotational speed of machine when running
+Torque: Measure of the turning force
+Tool Wear: Tool wear time estimated for the machine
+Machine Status: Labels indicate machine failure or not, 1 means failure, 0 means normal.
+
+
+******* pc price dataset (regression) ********
+This is a dataset collected from a PC website, it contains 15320 data points with 12 columns.
+
+Product ID: unique identifier ranging from 0 to 15319
+Brand: Brand of the PC
+Type: PC type, such as notebook, ultrabook
+Screen Size: Size of the PC screen
+Screen Specs: PC screen specs with resolution
+CPU: CPU infomation of the PC
+RAM: RAM information of the PC
+Hard Disk: Hard Disk information of the PC
+GPU: Graphic card of the PC
+Operating System: Operating system, such as Windows 10, macOS
+Weight: Weight of the PC
+Price: PC price
+
+
+TECHNICAL PAPER:
+Battle of the trees, DescisionTree ,Randomforest,Extra Trees. 
+Idea to compare the effectiveness of these different Tree structures across different datasets with different properties
+( this one will craft out ourselves using function make_classification sklearn ) 
+
+Compare using F1-score, overfittess tendency and time 
+
+Flow of Technical paper:
+Intro 
+Related works
+How basic descision tree works, add math stuff entrophy :DD
+from there add ( how ensemble trees are better like all trees vote majority thingy then overfit blah blah)
+
+Dataset1-
+Attributes of Dataset1
+
+Model test blah blah
+results
+explain 
+
+Dataset2
+Attributes of Dataset2
+
+Model test blah blah
+results
+explain 
+
+Dataset3
+Attributes of Dataset3
+
+Model test blah blah
+results
+explain 
+
+Bring all the datapoints together, general conclusion results.
+
+mois			   cal
+-0.628 -0.270 0.234 -0.111 0.202 0.320 0.5685
+
